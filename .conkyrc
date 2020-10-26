@@ -1,0 +1,26 @@
+conky.config = {
+    update_interval = 1,
+    double_buffer = true,
+    no_buffers = true,
+    text_buffer_size = 2048,
+    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+    own_window = true,
+    own_window_class = 'Conky',
+    own_window_transparent = yes,
+    background = yes,
+    gap_y = 0,
+    gap_x = -1,
+    own_window_argb_visual = true,
+    own_window_argb_value = 5,
+    own_window_type = 'override',   
+    alignment = 'bottom_right',
+    draw_shades = false,
+    draw_outline = false,
+    draw_borders = false,
+    use_xft = true, --needed to show font correctly
+    uppercase = true
+}
+
+conky.text = [[
+${font Noto:size=13}${color dedede}${alignc}${time %I:%M %p}
+]]

@@ -1,0 +1,21 @@
+[Desktop Entry]
+DefaultProfile=Profile 2.profile
+
+[Favorite Profiles]
+Favorites=
+
+[KonsoleWindow]
+ShowMenuBarByDefault=false
+
+[MainWindow]
+DVI-D-0 Height 1200=1096
+DVI-D-0 Width 1920=888
+DVI-D-0 XPosition=980
+DVI-D-0 YPosition=52
+DVI-D-1 Height 1200=1136
+DVI-D-1 Width 1920=920
+DVI-D-1 XPosition=968
+DVI-D-1 YPosition=32
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA5gAAARwAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
