@@ -13,6 +13,7 @@ This config uses my purps [purps-colorscheme](https://github.com/CaydendW/purps-
 Run fishcolors.fish to get my fish colorscheme
 
 ## Info
+```
 OS: Arch
 Shell: Fish
 Monospace font: Source Code Pro
@@ -23,3 +24,4 @@ Icons: Numix-Circle
 File manager: Nemo
 Window manager: i3
 Web browser: microsoft-edge-dev & firefox
+```
