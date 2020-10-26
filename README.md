@@ -8,4 +8,6 @@ This config uses my purps [purps-colorscheme](https://github.com/CaydendW/purps-
 Run fishcolors.fish to get my fish colorscheme
 
 ## Pictures
+![alt text](https://github.com/CaydendW/dots/blob/master/Pictures/basics.png?raw=true)
+![alt text](https://github.com/CaydendW/dots/blob/master/Pictures/emacsandvim.png?raw=true)
 ![alt text](https://github.com/CaydendW/dots/blob/master/Pictures/floating.png?raw=true)
