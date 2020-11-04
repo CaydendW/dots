@@ -2,8 +2,13 @@
 # ~/.config/fish/config/fish
 #
 
+# Check if running interactively
+if ! status -i
+    exit
+end
+
 # Aliases
-alias ls='ls -l -a --color=auto'
+alias ls='ls -l -h -a --color=auto'
 alias grep='grep -i --color'
 alias cls='clear'
 alias reddit='tuir'
@@ -23,7 +28,7 @@ alias fishrc='vim ~/.config/fish/config.fish'
 alias calculator='bc'
 alias py='python'
 alias mountwin='sudo mount -t ntfs /dev/sda1 /mnt/c && sudo mount -t ntfs /dev/sdb2 /mnt/d'
-alias teams='chromium https://teams.microsoft.com/_?culture=en-za&country=ZA&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/General?threadId=19:243e0d4b00d0432293dfab8ed2cb1f6f@thread.skype&ctx=channel'
+alias i3rc='vim ~/.config/i3/config'
 
 # Editor
 export EDITOR=vim

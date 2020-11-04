@@ -29,6 +29,7 @@ font pango:Ubuntu regular 10
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Theming
 # class                 border  bground text    indicator child_border
 client.focused          #4C2CA4 #4C2CA4 #DEDEDE #4C2CA4   #4C2CA4
 client.focused_inactive #2C1A44 #2C1A44 #555555 #2C1A44   #2C1A44
@@ -38,7 +39,12 @@ client.placeholder      #2C1A44 #2C1A44 #DEDEDE #2C1A44   #2C1A44
 
 client.background       #1F132A
 
-bindsym $mod+d exec "dmenu_run -nf '#DEDEDE' -nb '#1F132A' -sb '#3F37B3' -sf '#FFFFFF' -fn 'Ubuntu Regular-9' -p 'Dmenu prompt: '"
+# Dmenu
+# bindsym $mod+d exec "dmenu_run -nf '#DEDEDE' -nb '#1F132A' -sb '#3F37B3' -sf '#FFFFFF' -fn 'Ubuntu Regular-9' -p 'Dmenu prompt: '"
+bindsym $mod+d exec rofi -theme purps -show combi -icon-theme "Numix circle" -show-icons
+
+# Power management
+exec xset -dpms s off
 
 #Roundness
 border_radius 0
@@ -92,6 +98,21 @@ bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
+
+# monitors
+set $monitor_left HDMI-0
+set $monitor_right DVI-D-0
+
+workspace $wksp1 output $monitor_left
+workspace $wksp2 output $monitor_right
+workspace $wksp3 output $monitor_left
+workspace $wksp4 output $monitor_right
+workspace $wksp5 output $monitor_left
+workspace $wksp6 output $monitor_right
+workspace $wksp7 output $monitor_left
+workspace $wksp8 output $monitor_right
+workspace $wksp9 output $monitor_left
+workspace $wksp10 output $monitor_right
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -174,12 +195,13 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 
 #Auto-Launch Applications
 exec --no-startup-id volumeicon
-exec --no-startup-id compton --blur-background --blur-method kawase --blur-strength 12 --backend glx -b
+exec --no-startup-id compton --blur-background --blur-method kawase --blur-strength 13 --backend glx -m .75 -b -f
 exec --no-startup-id feh --no-fehbg --bg-scale "/home/cayden/.config/i3/back.png"
 exec_always --no-startup-id flashfocus
 exec --no-startup-id amixer sset 'Capture' 50%
 exec --no-startup-id amixer sset 'Master' 50%
 exec --no-startup-id conky
+exec --no-startip-id xrandr --output DVI-D-0 --primary --right-of HDMI-0
 
 # Assign Workspaces:
 # assign [class="vivaldi-stable"] 1
