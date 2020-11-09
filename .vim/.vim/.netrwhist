@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/cayden/.emacs.d'
+let g:netrw_dirhist_9='/home/cayden/.config/vivaldi/Default'
+let g:netrw_dirhist_8='/home/cayden/Documents/lisp/helloworld.lisp'
+let g:netrw_dirhist_7='/home/cayden/Documents/School/English'
+let g:netrw_dirhist_6='/home/cayden/.config/fish/functions'
+let g:netrw_dirhist_5='/home/cayden/.config/glasscord/discord/CSSLoader'
+let g:netrw_dirhist_4='/home/cayden/.config/glasscord/discord'
+let g:netrw_dirhist_3='/home/cayden'
+let g:netrw_dirhist_2='/home/cayden/.conky'
+let g:netrw_dirhist_1='/usr/share/icons/default'
