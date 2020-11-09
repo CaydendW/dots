@@ -10,6 +10,9 @@ filetype plugin indent on
 " set spell
 syntax enable
 " colorscheme purp
+colo ThemerVim
+hi! Normal ctermbg=NONE guibg=NONE
+hi! NonText ctermbg=NONE guibg=NONE
 
 set number
 set hlsearch
