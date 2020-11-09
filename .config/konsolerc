@@ -8,6 +8,10 @@ Favorites=
 ShowMenuBarByDefault=false
 
 [MainWindow]
+DVI-D-0 HDMI-0 Height 1200=1096
+DVI-D-0 HDMI-0 Width 1920=1816
+DVI-D-0 HDMI-0 XPosition=1972
+DVI-D-0 HDMI-0 YPosition=52
 DVI-D-0 Height 1200=1096
 DVI-D-0 Width 1920=888
 DVI-D-0 XPosition=980

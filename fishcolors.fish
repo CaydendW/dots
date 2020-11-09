@@ -1,3 +1,5 @@
+#!/bin/fish
+
 set -U fish_color_operator 802444
 set -U fish_color_escape 802444
 set -U fish_color_autosuggestion 777777

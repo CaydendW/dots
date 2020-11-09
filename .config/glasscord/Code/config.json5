@@ -1,0 +1,8 @@
+{
+  autoDownloadFeaturedModules: true,
+  startupDelayMs: 200,
+  windowProps: {},
+  modules: {
+    CSSLoader: true,
+  },
+}
