@@ -195,7 +195,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 
 #Auto-Launch Applications
 exec --no-startup-id volumeicon
-exec --no-startup-id picom --experimental-backend --blur-background --blur-method dual_kawase --blur-strength 16 --backend glx -m .75 -b -f
+exec --no-startup-id picom --experimental-backend --blur-background --blur-method dual_kawase --blur-strength 10 --backend glx -m .75 -b -f
 exec --no-startup-id feh --no-fehbg --bg-scale "/home/cayden/.config/i3/back.png"
 exec_always --no-startup-id flashfocus
 exec --no-startup-id amixer sset 'Capture' 50%
