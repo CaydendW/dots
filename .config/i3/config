@@ -153,10 +153,10 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
-bindsym $mod+c resize grow width 20 px
+bindsym $mod+z resize grow width 20 px
 bindsym $mod+s resize grow height 20 px
 bindsym $mod+x resize shrink height 20 px
-bindsym $mod+z resize shrink width 20 px
+bindsym $mod+c resize shrink width 20 px
 
 # Pulse Audio controls - List sinks with pactl list sinks
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
