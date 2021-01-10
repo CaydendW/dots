@@ -1,3 +1,4 @@
+# WARNING: DEPRECIATED! USE DOTS2 (DWM VERSION) INSTEAD!
 # dots
 
 ## Pictures
