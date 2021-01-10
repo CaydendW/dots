@@ -23,4 +23,5 @@ Window manager: i3
 Web browser: vivaldi
 Application launcher: rofi
 Editors: vim, Doom Emcas, VSCode and LibreOffice
+Compositor: this brach of picom- https://github.com/jonaburg/picom
 ```
