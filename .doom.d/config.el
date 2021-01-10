@@ -41,6 +41,11 @@
 
 (setq doom-theme 'doom-purps)
 
+;; autostart
+;;(neotree-show)
+
+;;(global-set-key (kbd "C-c c") (neotree))
+
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
 ;; - `load!' for loading external *.el files relative to this one

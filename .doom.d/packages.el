@@ -1,4 +1,5 @@
 ;; -*- no-byte-compile: t; -*-
+
 ;;; $DOOMDIR/packages.el
 
 ;; To install a package with Doom you must declare them here and run 'doom sync'
@@ -48,3 +49,22 @@
 ;(unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
+
+(package! yasnippet)
+(package! auto-complete-c-headers)
+(package! auto-complete)
+(package! ranger)
+(package! mode-icons)
+(package! undo-tree)
+(package! js2-mode)
+(package! projectile)
+(package! neotree)
+(package! all-the-icons)
+(package! all-the-icons-dired)
+(package! all-the-icons-ivy)
+(package! iedit)
+(package! flymake-cursor)
+(package! company)
+(package! dirtree)
+(package! sr-speedbar)
+(package! format-all)
